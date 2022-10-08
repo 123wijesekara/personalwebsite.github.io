@@ -2,37 +2,272 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>personal website</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript">
+    function show_alert() {
+        alert("Hello! I am an alert box!");
+    }
+</script>
 </head>
 
 <body>
+  <header>
+    <img
+      src="https://i.pinimg.com/originals/89/fc/59/89fc59df7f4fa947384cdefb6924041f.png"
+      class="profile-img">
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#works">BLOG</a></li>
+        <li><a href="#contact">Contact</a></li>
+        
+      </ul>
+       
+    </nav>
+  </header>
+  <main>
+    <section id="hero">
+      <div class="section-inner">
+        <img
+          src="https://w7.pngwing.com/pngs/666/201/png-transparent-computer-icons-woman-women-s-day-face-holidays-head-thumbnail.png"
+          class="profile-img">
+        <h1>Hi, I'm Dinithi .</h1>
+      </div>
+    </section>
     
-    <div class="hero">
-        <nav>
-            <img src="https://logos.textgiraffe.com/logos/logo-name/Ann-designstyle-lemonade-m.png" class="logo">
-            <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="about.html">about</a></li>
-                <li><a href="skills.html">skills</a></li>
-                <li><a href="works.html">works</a></li>
-            </ul>
-        </nav>
-        <div class="details">
-            <h1>I,m Ann<span> Amelia</span></h1>
-            <p>This is my personal website to shows
-                <br>about me ,my skills, works
-            </p>
-        </div>
-        <div class="images">
-            <img src="https://img.myloview.de/sticker/set-of-colorful-arrows-400-282579517.jpg" class="shape">
-            <img src="https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_female_user-512.png" class="girl">
-            
+    <section id="about">
+      <div class="section-inner">
+        <h2>About me</h2>
+         
+
+        <div class="column">
+          <div class="card">
+            <img src="http://uom.lk/sites/default/files/textile/gallery/fashion_show/2016/unnamed%20%283%29.jpg"
+              alt="1" style="width:100%">
+            <div class="container">
+              <h2>About university Degree</h2>
+
+              
+
+              <p><a button class="button" href="https://uom.lk/itfac">More details</button></a></p>
+            </div>
+          </div>
         </div>
 
-    </div>
+        <div class="column">
+          <div class="card">
+            <img
+              src="https://visacrunch.com/wp-content/uploads/2021/06/107157486_students8.jpg"
+              alt="2" style="width:100%">
+            <div class="container">
+              <h2>Extra curricular activities</h2>
+              
+              
+
+             <p><a button class="button" href="#works">More</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img src="https://www.achieveriasclasses.com/wp-content/uploads/2021/05/skill.jpeg" alt="3"
+              style="width:100%">
+            <div class="container">
+              <h2>Skills</h2>
+              </div>
+          
+              <button type="button" class="collapsible">More</button>
+              <div class="content">
+                <ol>
+                  <li>Soft Skills</li>
+                  
+                  <ul>
+                <li>Effective communication</li>
+                <li>Teamwork</li>
+                <li>Creativity</li>
+                <li>Willingness to learn</li>
+                <li>Problem solving</li>
+                <li>Oraganization</li>
+                <li>Critical thinking</li>
+                </ul>
+                
+                  <li>Hard Skills</li>
+                
+                  <ul>
+                <li>Technical skill</li>
+                <li>Computer skill</li>
+                <li>Presentation skills</li>
+                <li>Design skills</li>
+                <li>Language skills</li>
+                 
+                </ul>
+                </ol>
+              </div>
+          
+          </div>
+        </div>
+        
+
+    </section>
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+      </script>
+      
+    <section id="works">
+      <div class="section-inner">
+        <div class="img-gallery">
+     
+          <img class="img-gallery-col-2 img-gallery-row-2"src="https://img.freepik.com/free-photo/front-view-stacked-books-graduation-cap-diploma-education-day_23-2149241011.jpg?w=2000"> 
+          <img src="https://media.istockphoto.com/photos/in-the-hands-of-trees-growing-seedlings-bokeh-green-background-female-picture-id1181366400?b=1&k=20&m=1181366400&s=170667a&w=0&h=mvLGbcbKvjjWNoHIBIH8KuktbRpMU7SzxeIT8j3meMU=">
+          <img src="https://www.ecolemondiale.org/storage/uploads/O6UhXEUGbTU6eDXKHIxrVPGf8Pt0IGszqHW7r0cD.jpeg">
+          <img src="https://img.freepik.com/fotos-gratis/vista-superior-de-varios-pinceis-e-lapis-de-cor_23-2148660992.jpg?w=2000">
+          <img src="https://i.pinimg.com/originals/65/aa/b5/65aab51a535b4301c2386f0fee74317e.jpg">
+          <img src="https://photographyideaz.com/wp-content/uploads/2021/12/photograph-5.jpg">
+          <img src="https://img.haikudeck.com/mi/26632B27-3133-4DE0-9315-21A369D692B4.jpg">
+          <img src="https://www.johnpaulstrong.com/wp-content/uploads/sites/96/2021/03/iStock-1218490893-768x569.jpg">
+          <img src="https://i0.wp.com/oyaschool.com/wp-content/uploads/2019/01/Yorke-Institute_AUS_col_background.jpg?fit=1024%2C631&ssl=1">
+        </div>
+         
+      </div>
+    </section>
+    <section id="contact">
+      <div class="section-inner">
+
+
+        <div class="column1">
+          <form action="/action_page.php" style="max-width:500px;margin:auto">
+            <h2>Contact Form</h2>
+            <br>
+            <div class="input-container">
+              <i class="icon"></i>
+              <input class="input-field" type="text" placeholder="First Name" name="username" required>
+            </div>
+
+            <div class="input-container">
+              <i class="icon"></i>
+              <input class="input-field" type="text" placeholder="Last Name" name="lastname" required>
+            </div>
+            <div class="input-container">
+              <i class="icon"></i>
+              <input class="input-field" type="text" placeholder="Country" name="country" required>
+            </div>
+            <div class="input-container">
+              <i class="icon"></i>
+              <input class="input-field" type="email"  id="myEmail"placeholder="Email" name="email"pattern="[abc@gmail.com" required>
+            </div>
+
+
+            <div class="input-container">
+
+              <textarea class="input-field" placeholder="Write Something" name="write something"
+                style="width: 370px ;height: 100px;"></textarea></style></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+      <script>
+      const input = document.getElementById('name');
+  const input = document.getElementById('myEmail');
+  const input = document.getElementById('phone');
+  const input = document.getElementById('degree');
+  const input = document.getElementById('gender');
+  input.setAttribute('required', '');
+
+  function myFunction() {
+  
+  let x = document.getElementById("name").value;
+let text;
+if (isNaN(x) || x < 6 || x > 10) {
+  text = "please enter character lenght 6-10";
+} 
+document.getElementById("demo").innerHTML = text;
+
+}
+
+function myFunction1() {
+  var y = document.getElementById("myEmail").pattern;
+  document.getElementById("demo").innerHTML = y;
+}
+  </script>
+  
+      <div class="column1" >
+        <div class="section-inner">
+        
+          <table class="styled-table">
+            <thead>
+  
+              <tr>
+                <th colspan="2">Contact details</th>
+  
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="active-row">
+                <td> Name</td>
+                <td>
+                  Dinithi
+                </td>
+              </tr>
+              <tr class="active-row">
+                <td>Country</td>
+                <td>
+                  Sri Lanka
+                </td>
+              </tr>
+              <tr class="active-row">
+  
+                <td>Higher Education</td>
+                <td>
+                  University of Moratuwa
+                </td>
+                </ul>
+              </tr>
+              <tr class="active-row">
+  
+                <td>Contact no</td>
+                <td>
+                  0413586794
+                </td>
+                </ul>
+              </tr>
+              <tr class="active-row">
+  
+                <td>Email</td>
+                <td>
+                  abc@gmail.com
+                </td>
+                </ul>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+          </div>
+    </section>
+  </main>
+  <footer>
+    © Copyright 2022
+  </footer>
+
 </body>
-<style>
+
+</html>
