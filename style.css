@@ -1,7 +1,9 @@
 body {
     margin: 0;
-    margin-top: 70px;
+    margin-top: 50px;
     font-family:sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 header {
@@ -12,7 +14,7 @@ header {
     right: 0;
     height: 80px;
     line-height: 50px;
-    background-color: rgb(89, 238, 255);
+    background-color: rgb(12, 120, 171);
     
 }
 
@@ -21,7 +23,7 @@ header * {
     height: 80px;
     
 }
-
+ 
 header ul {
     padding: 0;
     word-spacing: 90px;
@@ -49,25 +51,19 @@ section {
 
 
 
-#hero .profile-img {
+#home .profile-img {
     width: 300px;
     border-radius:50%;
 }
-
-footer {
-    text-align: center;
-    padding: 30px;
-    background-color:rgb(17, 9, 74);
-    color: white;
-}
+ 
 h1{
     font-size: 5em;
     text-transform: uppercase;
    background-image: linear-gradient(-225deg,
-         #e977aa 0%,
-         #9cd7d5 29%,
-         #7996db 67%,
-         #f692bc 100%);
+         #ba0757 0%,
+         #099b96 29%,
+         #2157d4 67%,
+         #ef498e 100%);
    background-size: auto auto;
    background-clip: border-box;
    background-size: 200% auto;
@@ -85,6 +81,37 @@ h1{
        background-position: 200% center;
     }
  }
+ .b p{
+  
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+   font-weight: 200;
+   
+  
+}
+ .f-card-back p{
+  
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+   font-weight: bolder;
+    text-align:center;
+}
+span{
+ 
+color: #363639;
+font-style: italic;
+display: inline-block;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.column2{
+   
+   width: 30.3%;
+   margin-bottom: 16px;
+   padding-left: 600px;
+   
+}
+
+
 section h2 {
     font-size: 2.5em;
 }
@@ -98,7 +125,7 @@ header a {
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
-   color: #000;
+   color: rgb(223, 230, 231);
    display: inline-block;
    font-family:Georgia, 'Times New Roman', Times, serif ;
    
@@ -109,22 +136,17 @@ header a {
     }
  }
 nav ul li a:hover{
-color: rgb(29, 122, 198);
+color: rgb(6, 25, 41);
 }
-#mySearch {
-   width: 100%;
-   font-size: 18px;
-
-   border: 1px solid #ddd;
- }
-#hero {
+ 
+#home {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://media.istockphoto.com/photos/portrait-of-a-beautiful-woman-posing-in-a-studio-picture-id1306399874?k=20&m=1306399874&s=612x612&w=0&h=EybS6xJGFOy6dWfaznye3NPtLVxY_hFQg4498VELsYM=');
 }
 
 #about {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80');
 }
-.column {
+.column{
     float: left;
     width: 30.3%;
     margin-bottom: 16px;
@@ -173,7 +195,7 @@ color: rgb(29, 122, 198);
   }
   
   .button:hover {
-    background-color: rgb(55, 239, 239);
+    background-color: rgb(12, 120, 171);
   }
   
   @media screen and (max-width: 650px) {
@@ -183,7 +205,7 @@ color: rgb(29, 122, 198);
     }
   }
   .collapsible {
-   background-color: #777;
+   background-color:black ;
    color: white;
    cursor: pointer;
    padding: 18px;
@@ -194,7 +216,7 @@ color: rgb(29, 122, 198);
    font-size: 15px;
  }
  .active, .collapsible:hover {
-   background-color: #555;
+   background-color:rgb(12, 120, 171) ;
  }
  .content {
    padding: 0 18px;
@@ -213,11 +235,18 @@ color:white ;
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
 }
 h2{
-    color: rgb(4, 40, 63);
+   font-size: 5em;
+   text-transform: uppercase;
+  font-family:serif;
+  font-weight: 400;
+  
+  
 }
+
+
 .input-container {
     display: -ms-flexbox;
-    /* IE10 */
+    
     display: flex;
     width: 100%;
     margin-bottom: 15px;
@@ -244,7 +273,7 @@ h2{
  }
  
  
- /* Set a style for the submit button */
+ 
  .btn {
     background-color: rgb(16, 130, 168);
     color: white;
@@ -269,20 +298,18 @@ h2{
       width: 50%;
    }
    form{
-      background-image: url('https://images.squarespace-cdn.com/content/v1/593194a5440243fc538cd3b4/1610309821221-NJLQUC570Z7Q8OXPAGWT/background.jpg?format=2500w');
+      background-image: url('https://static.vecteezy.com/system/resources/previews/006/427/270/original/hand-painted-watercolor-sky-and-clouds-abstract-watercolor-background-with-golden-texture-blue-fluid-painting-spring-wedding-invitation-vector.jpg');
       padding-right: 300px;
       padding-bottom:300px;
       padding-left:200px ;
       padding-top: 170px;
    }
-#works{
-    background-image: linear-gradient(rgba(255,255,255,0.25),rgba(255,255,255,0.75)), url('https://images.pexels.com/photos/593322/pexels-photo-593322.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260') ;
-}
+ 
 .styled-table {
-    background-image: url('https://wallpaperaccess.com/full/4486611.jpg') ;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/006/427/270/original/hand-painted-watercolor-sky-and-clouds-abstract-watercolor-background-with-golden-texture-blue-fluid-painting-spring-wedding-invitation-vector.jpg') ;
     padding-left: 100px;
     padding-bottom: 500px;
-    padding-top: 250px;
+    padding-top: 260px;
     padding-right: 30px;
     margin: 25px 0;
     font-size: 2em;
@@ -338,7 +365,7 @@ h2{
  
  
  .styled-table tbody tr.active-row {
-    font-weight: lighter;
+    font-weight:bold;
     color: #3f4143;
     font-size: 20px;
  }
@@ -347,16 +374,20 @@ h2{
     color: black;
  
  }
+ #gallery{
+   background-image: linear-gradient(rgba(255,255,255,0.25),rgba(255,255,255,0.75)), url('https://images.pexels.com/photos/593322/pexels-photo-593322.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260') ;
+}
  .img-gallery{
-   --gap:16px;
-   --num-cols:4;
-   --row-height:300px;
+   --gap:150px;
+   --num-cols:3;
+   --row-height:170px;
    box-sizing:border-box;
    padding: var(--gap);
    display:grid;
    grid-template-columns:repeat(var(--num-cols),1fr);
    grid-auto-rows: var(--row-height);
    gap:var(--gap);
+   
  }
 
  .img-gallery > img  {
@@ -376,4 +407,150 @@ object-fit: cover;
  .img-gallery-row-2{
    grid-row:span 2;
  }
+ .f-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  
+}
+
+.f-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.f-card:hover .f-card-inner {
+  transform: rotateY(180deg);
+}
+
+.f-card-front, .f-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 30px;
+}
+
+.f-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.f-card-back {
+  background-color:  rgba(0, 0, 0, 0.6);
+  color: white;
+  transform: rotateY(180deg);
+  font-style: italic;
+  
+}
+.f-card p{
+  
+   text-transform: uppercase;
+  background-image: linear-gradient(-225deg,
+        #5cd3f1 0%,
+        #9cd7d5 29%,
+        #7996db 67%,
+        #1b89bc 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 8s linear infinite;
+  
+}
+#services{
+    background-color: #89e4f2;
+    
+}
+.services{
+    color:#fff;
+    background: #111;
+}
+.services ::before,
+.teams ::before{
+    background: #fff;
+}
  
+.services .serv-content .card{
+    width: calc(33% - 20px);
+    background: rgb(12, 120, 171);
+    text-align: center;
+    border-radius: 20px;
+   padding-left: 100px;
+   padding-bottom: 90px;
+   padding-right: 200px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover{
+    background: rgb(105, 210, 238);
+}
+.services .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+ 
+ 
+.services .serv-content .card .text{
+    font-size: 35px;
+    font-weight: 300;
+    margin: 5px 0 7px 0;
+}
+.services .serv-content{
+   
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+
+}
+section .title{
+   position: relative;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 500;
+   margin-bottom: 60px;
+   padding-bottom: 20px;
+   font-family: 'Ubuntu', sans-serif;
+}
+ 
+ 
+.services .serv-content .card{
+   width: calc(50% - 10px);
+   margin-bottom: 20px;
+}
+ 
+@media (max-width: 690px) {
+   .max-width{
+       padding: 0 23px;
+   }
+   .services .serv-content .card{
+      width: 100%;
+  }
+}
+footer {
+   text-align: center;
+   padding: 100px;
+   background-color:rgb(12, 120, 171);
+   color: white;
+   
+}
+  
+@media screen and (max-width: 500px) {
+   .colomn1{
+     width: 100%;
+     display: block;
+   }
+ }
